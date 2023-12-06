@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="dictionary.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">English dictionary</h1>
+        <input 
+            placeholder="search a word" 
+            type="text" 
+            class="input" 
+            id="input" 
+        />
+        <p 
+            class="info-text" 
+            id="info-text"
+        > Type a Word & Press Enter
+        </p>
+        <div 
+            class="meaning-container" 
+            id="meaning-container"
+        >
+            <P> Word Title: 
+                <span class="title" 
+                id="title">
+                </span>
+            </P>
+            <p>Meaning: 
+                <span class="meaning" 
+                id="meaning">
+                </span>
+            </p>
+            <audio 
+                src="" 
+                controls id="audio">
+            </audio>
+        </div>
+    </div>
+</body>
+</html>
